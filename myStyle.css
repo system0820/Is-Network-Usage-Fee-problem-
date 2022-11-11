@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap');
+
+body{margin: 0px; font-family: 'Noto Sans KR', sans-serif;}
+body{-ms-overflow-style: none;}
+    ::-webkit-scrollbar {display: none;}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contentsA{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+}
+#contentsB{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+}
+#contentsC{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+}
+#contentsD{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+}
+#contentsE{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+}
+#contentsF{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+}
+#contentsG{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+}
+#contentsH{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+}
+
+#contentsI{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+}
+
+#footer{
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+}
+
+/* 메인, 마무리 */
+#myVideo{
+    width: 100%;
+    height: 100%;
+}
+
+#myVideo2{
+    width: 100%;
+    height: 100%;
+}
+
+/* 메인, 망 사용료, 망 사용료2, 마무리 */
+#titleBox{
+    position: absolute;
+    font-size: 128px;
+    color: white;
+}
+#titleBox2{
+    position: absolute;
+    font-size: 128px;
+    color: white;
+}
+
+
+
+/*----------------------------------------*/
+/* CLASS */
+/* 피어링 & 트랜짓 */
+.myImg{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/* 딘대단 원칙 */
+.imgBox{
+    width: 35rem;
+    overflow: hidden;
+    margin-right: 5rem;
+}
+
+
+
+/* 피어링 & 트랜짓 */
+.imgBox2{
+    width: auto;
+    position: absolute;
+    justify-content: center;
+}
+.imgBox3{
+    width: auto;
+    position: absolute;
+    justify-content: center;
+}
+.imgBox4{
+    width: 37.5rem;
+    height: 37.5rem;
+    position: absolute;
+    justify-content: center;
+
+    background-image: url(img/peering01.png);
+    background-size: cover;
+    transition-duration: 0.5s;
+}
+.imgBox4:hover{
+    background-image: url(img/transit01.png);
+    transform: rotateY(180deg);
+}
+
+
+
+
+/* footer */
+.footerBox{
+    width: 700px;
+    color: white;
+    font-size: 15px;
+    margin-top: 80px;
+}
+
+
+
+/*----------------------------------------*/
+/* 단대단 원칙 */
+.textBox{ 
+    width: 35rem;
+    color: white;
+}
+
+
+
+/* ISP & CP */
+.miniTextBox1{
+    width: 18.75rem;
+    color: white;
+    margin: -10rem;
+    margin-right: 20rem;
+}
+.miniTextBox2{
+    width: 18.75rem;
+    color: white;
+}
+
+
+
+/* 시나리오 1,2 */
+.textBoxA{ 
+    width: 100rem;
+    margin-top: 15px;
+    padding: 100px;
+    color: white;
+}
+.textBoxB{
+    width: 34rem;
+    margin-top: 15px;
+    padding: 100px;
+    color: white;
+}
+
+
+/* 넥플 VS SKB */
+.textBox1{
+    width: 100%;
+    height: 100vh;
+    opacity: 40%;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.textBox1:hover{
+    width: 180%;
+    height: 100vh;
+    opacity: 100%;
+    background-color: red;
+    transform: scaleX(1);
+}
+.textBox1-1{
+    color: white;
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 10rem;
+}
+.textBox1-2{
+    padding: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px 20px;
+}
+
+
+
+/* 구글 VS 방통위 */
+.textBox2{
+    width: 100%;
+    height: 100vh;
+    opacity: 40%;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.textBox2:hover{
+    width: 180%;
+    height: 100vh;
+    opacity: 100%;
+    background-color: #7B35E1;
+    transform: scaleX(1);
+}
+.textBox2-1{
+    color: white;
+    text-align: right;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+.textBox2-2{
+    padding: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px 20px;
+}
+
+
+
+/*----------------------------------------*/
+/* 메인, 마무리 */
+.videoBox{
+    width: 100%;
+}
+
+
+/*----------------------------------------*/
+/* 시나리오 1,2 */
+.circle1 {
+    width: 450px;
+    height: 450px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 20rem;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    transition-duration: 0.5s;
+
+}
+
+.circle1:hover {
+    background-color: red;
+    transform: scale(3);
+}
+
+
+
+.circle2 {
+    width: 450px;
+    height: 450px;
+    background-color: #7B35E1;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    
+}
+.circle2:hover {
+    background-color: #7B35E1;
+    transform: scale(3);
+}
+
+
+
+/*----------------------------------------*/
+/* 배경 색깔 */
+.bgPurple{background-color: #7B35E1;}
+.bgBlack{background-color: black;}
+.bgWhite{background-color: white;}
+
+
+
+/* 문단 페딩(위에 간격 만들기) */
+.rowpad{
+    padding-top: 10px;
+}
+.rowpad2{
+    padding-top: 100px;
+}
+.rowpad3{
+    padding-top: 150px;
+}
+.rowpad4{
+    padding-top: 300px;
+}
+
+
+
+/* 텍스트 */
+.text-orange{color: #E06560;}
+.text-purple{color: #7B35E1;}
+.text-white{color: white;}
+.text-black{color: black;}
+.text-gray{color: gray;}
+.text-red{color: #ff0000;}
+
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+
+.text-main-title{font-weight: 900; font-size: 8.125rem;}/*130px*/
+.text-sub-title{font-weight: 900; font-size: 6.25rem;}/*100px*/
+.text-sub-title2{font-weight: 700; font-size: 4.688rem;}/*75px*/
+
+.text-normal-regular1{font-weight: 400; font-size: 2.5rem;}/*40px*/
+.text-normal-regular2{font-weight: 400; font-size: 1.875rem;}/*30px*/
+.text-normal-regular3{font-weight: 400; font-size: 0.875rem;}/*14px*/
+.text-normal-regular4{font-weight: 400; font-size: 20px;}/*20px*/
+.text-normal-regular5{font-weight: 400; font-size: 10px;}/*10px*/
+.text-normal-regular6{font-weight: 400; font-size: 2px;}/*2px*/
+.text-normal-bold{font-weight: 700; font-size: 2.5rem;}/*40px*/
+.text-normal-bold2{font-weight: 700; font-size: 1.875rem;}/*30px*/
+.text-normal-bold3{font-weight: 700; font-size: 1.25rem;}/*20px*/
+.text-normal-bold4{font-weight: 700; font-size: 0.625rem;}/*10px*/
+
+.text-footer{font-weight: 400; font-size: 30px;}
+
+
+.line-height0{line-height: 0%;}
+
+
